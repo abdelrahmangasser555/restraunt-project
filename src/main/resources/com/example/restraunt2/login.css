@@ -1,0 +1,50 @@
+/* General Styles */
+.root {
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Header */
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #003c71;
+    -fx-padding: 10px;
+}
+
+/* Input Fields */
+.input-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+.input-field:focused {
+    -fx-border-color: #37cdbe;
+    -fx-background-color: white;
+}
+
+/* Login Button */
+.login-button {
+    -fx-background-color: #ff681d;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #ff5412;
+}
+
+/* Error Message */
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-padding: 10px;
+}

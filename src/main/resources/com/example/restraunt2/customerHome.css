@@ -1,0 +1,38 @@
+/* CSS file for styling the FXML layout */
+.heading {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #003c71; /* Primary color */
+    -fx-font-family: "Arial", sans-serif;
+    -fx-padding: 10px;
+    -fx-start-margin: 20px;
+    -fx-alignment: center;
+    -fx-background-color: #f4f4f4; /* Background color */
+        -fx-text-alignment: center;
+}
+
+.action-button {
+    -fx-font-size: 20px;
+    -fx-background-color: #ff681d; /* Secondary color */
+    -fx-text-fill: white;
+    -fx-border-radius: 25px;
+    -fx-padding: 15px 30px;
+    -fx-pref-width: 250px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 8, 0.5, 2, 2);
+}
+
+.action-button:hover {
+    -fx-background-color: #37cdbe; /* Accent color on hover */
+}
+
+.action-button:pressed {
+    -fx-background-color: #003c71; /* Darker shade for press effect */
+}
+
+.container-user-options {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
